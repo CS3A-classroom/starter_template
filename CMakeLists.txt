@@ -21,34 +21,33 @@ fetch_googletest(
 
 
 
-# ------------------------------------
-
-# set(CMAKE_CXX_STANDARD 11)
-# set(CMAKE_CXX_STANDARD_REQUIRED ON)
-# et(CMAKE_CXX_EXTENSIONS OFF)
-
+# ------------------------------------------------------------------------------------------
+#                                    DO NOT EDIT 
+#                               ANYTHING ABOVE THIS LINE
+# ------------------------------------------------------------------------------------------
 
 
 # ADD_SUBDIRECTORY(googletest)
 
 ADD_EXECUTABLE(main
     main.cpp
-    vector.cpp
-    includes/array_functions.cpp
+    includes/stub/stub.cpp
 )
 
+ADD_EXECUTABLE(basic_test
+    _tests/_test_files/basic_test.cpp
+    includes/stub/stub.cpp
+)
 ADD_EXECUTABLE(testA
-    testA.cpp
-    vector.cpp
-    includes/array_functions.cpp
+    _tests/_test_files/testA.cpp
+    includes/stub/stub.cpp
 )
 
 ADD_EXECUTABLE(testB
-    testB.cpp
-    vector.cpp
-    includes/array_functions.cpp
+    _tests/_test_files/testB.cpp
 )
 
+TARGET_LINK_LIBRARIES(basic_test gtest)
 TARGET_LINK_LIBRARIES(testA gtest)
 TARGET_LINK_LIBRARIES(testB gtest)
 
