@@ -1,3 +1,1 @@
-# Starter Code: Generic
-
-modified before accept
+# 11_p6_polynomial
