@@ -1,3 +1,1 @@
-# Starter Code: Generic
-
-modified before accept
+13_03_simple_list_class
