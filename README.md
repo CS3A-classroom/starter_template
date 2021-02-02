@@ -1,3 +1,1 @@
-# Starter Code: Generic
-
-modified before accept
+# 10_p6_moms_counter
