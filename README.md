@@ -1,3 +1,1 @@
-# Starter Code: Generic
-
-modified before accept
+# 00_lab_3
