@@ -1,3 +1,1 @@
-# Starter Code: Generic
-
-modified before accept
+# 15_p9_predator_prey
