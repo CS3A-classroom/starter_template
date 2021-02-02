@@ -36,15 +36,14 @@ ADD_EXECUTABLE(main
 
 ADD_EXECUTABLE(basic_test
     _tests/_test_files/basic_test.cpp
-    includes/stub/stub.cpp
 )
 ADD_EXECUTABLE(testA
     _tests/_test_files/testA.cpp
-    includes/stub/stub.cpp
 )
 
 ADD_EXECUTABLE(testB
     _tests/_test_files/testB.cpp
+    includes/stub/stub.cpp
 )
 
 TARGET_LINK_LIBRARIES(basic_test gtest)

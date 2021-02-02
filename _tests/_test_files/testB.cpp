@@ -1,12 +1,18 @@
 #include "gtest/gtest.h"
 #include <iostream>
 #include <iomanip>
+#include "../../includes/stub/stub.h"
 
-TEST(TEST_STUB, StubForTestFunction) {
+bool test_stub(bool debug = false){
+  bool test = stub();
+  return test;
+}
+
+TEST(TEST_STUB, TestStub) {
   
   //EXPECT_EQ(0, <your individual test functions are called here>);
 
-  EXPECT_EQ(1, 1);
+  EXPECT_EQ(1, test_stub(false));
 }
 
 
