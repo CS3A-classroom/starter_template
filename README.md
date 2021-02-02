@@ -1,3 +1,1 @@
-# Starter Code: Generic
-
-modified before accept
+# 13_00_linked_list_functions
