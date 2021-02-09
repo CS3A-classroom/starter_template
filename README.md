@@ -22,5 +22,6 @@
 
 <br><br>
 
-- Reflections:
-  - Any thoughts you may have and would like to share.
+# Reflections:
+
+- Any thoughts you may have and would like to share.
