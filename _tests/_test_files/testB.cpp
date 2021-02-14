@@ -2,6 +2,7 @@
 #include <iostream>
 #include <iomanip>
 #include "../../includes/stub/stub.h"
+using namespace std;
 
 bool test_stub(bool debug = false){
   bool test = stub();
